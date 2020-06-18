@@ -51,12 +51,9 @@ export default class App extends Component {
   _renderItem = ({ item, idx }) => {
     return (
       <View style={{ width: '90%', flexDirection: 'row', alignItems: 'center', height: 65, justifyContent: 'space-between', borderBottomWidth: 1, borderColor: '#d1d1d1' }}>
-        <View style={{ flexDirection: 'row', alignItems: 'center', width: '100%'}}>
+        <View style={{ flexDirection: 'row', alignItems: 'center', width: '100%' }}>
 
-          <View
-            style={{ width: 44, height: 44, borderRadius: 22, backgroundColor: '#ff00ff' }}
-            resizeMode='contain' >
-          </View>
+          <View style={{ width: 44, height: 44, borderRadius: 22, backgroundColor: '#ff00ff' }}></View>
 
           <View style={{ marginLeft: 5 }}>
             <Text style={{ fontSize: 13, color: '#000000' }}>{item.name}</Text>
@@ -69,7 +66,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <View style={{ flex: 1, width: '100%',alignItems: 'center' }}>
+      <View style={{ flex: 1, width: '100%', alignItems: 'center' }}>
         <SectionIndexer
           arrNames={this.state.arrNames}
           renderItem={this._renderItem}

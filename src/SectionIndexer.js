@@ -92,7 +92,7 @@ class SectionIndexer extends Component {
 
 
     render() {
-        const { arrNames, renderItem, textSize = 12, textColor = '#8a8a8a', divSize = 5, divColor = '#b3b3b3', indexerWidth = 20, indexerColor = '#f2f2f2', indexerBorderR = 10,indexerRightMargin=5 } = this.props;
+        const { arrNames, renderItem, textSize = 12, textColor = '#8a8a8a', divSize = 5, divColor = '#b3b3b3', indexerWidth = 20, indexerColor = '#f2f2f2', indexerBorderR = 10, indexerRightMargin = 5 } = this.props;
         const { layoutWidth, layoutHeight } = this.state;
 
         return (
@@ -165,6 +165,7 @@ class SectionIndexer extends Component {
                     <Text style={{ fontSize: divSize, color: divColor }}>●</Text>
                     <Text style={{ fontSize: textSize, color: textColor }}
                         onLayout={event => { this.state.sideIndexLoc[1] = event.nativeEvent.layout.y }}>ㄱ</Text>
+                    <Text style={{ fontSize: divSize, color: divColor }}>●</Text>
                     <Text style={{ fontSize: textSize, color: textColor }}
                         onLayout={event => { this.state.sideIndexLoc[2] = event.nativeEvent.layout.y }}>ㄴ</Text>
                     <Text style={{ fontSize: divSize, color: divColor }}>●</Text>
