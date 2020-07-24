@@ -7,17 +7,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/KimJeonghun91/react-native-section-indexer-kor",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-section-indexer-kor.git",
-    "baseUrl": "https://github.com/github_account/react-native-section-indexer-kor"
+    "url": "git+https://github.com/KimJeonghun91/react-native-section-indexer-kor.git",
+    "baseUrl": "https://github.com/KimJeonghun91/react-native-section-indexer-kor"
   },
   "keywords": [
-    "react-native"
+    "react-native","fastscroll","section indexer","초성 리스트"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "RightHot",
+    "email": "suuuk3@gamil.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
